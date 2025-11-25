@@ -362,11 +362,3 @@ if __name__ == '__main__':
     print(f"🌐 Starting web server on port {port}...")
     app.run(host='0.0.0.0', port=port)
 ```
-
-And here's the `requirements.txt`:
-```
-pyTelegramBotAPI==4.14.0
-gTTS==2.5.0
-schedule==1.2.0
-Flask==3.0.0
-requests==2.31.0
